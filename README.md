@@ -51,7 +51,7 @@ path : `./data/data.rar`
 | ----------------- | -------------------------------------------------- | ------------------------------------------------------------ |
 | `miRNA.dat`       | [mirbase](https://mirbase.org/)                    | miRBase v22 (version 2019): A comprehensive archive of microRNA sequences and annotations. Used to generate `miRNA_miRNA.npy`,`miRNA_rfam.npy`,`miRNA_cluster.npy`,`miRNA_disease.npy`. |
 | `desc2024.xml`    | [MeSH](https://www.nlm.nih.gov/mesh/meshhome.html) | Medical Subject Headings (MeSH) thesaurus (version 2024):  A controlled and hierarchically-organized vocabulary from the National Library of Medicine. Used to generate `disease_disease.npy`. |
-| `alldata_v4.xlsx` | [HMDD]((http://www.cuilab.cn/hmdd))              | HMDD v4.0 (version 2023.07): A comprehensive dataset of miRNA-disease association data. Used to generate `miRNA_name.npy`, `disease_name.npy` and `miRNA_disease.npy`. |
+| `alldata_v4.xlsx` | [HMDD](http://www.cuilab.cn/hmdd)             | HMDD v4.0 (version 2023.07): A comprehensive dataset of miRNA-disease association data. Used to generate `miRNA_name.npy`, `disease_name.npy` and `miRNA_disease.npy`. |
 
 ## How to Run the Code
 
