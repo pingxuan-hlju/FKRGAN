@@ -31,7 +31,7 @@ The FKRGAN code has been implemented and tested in the following development env
 
 ### Data
 
-path : `./data`
+path : `./data/data.rar`
 
 | file_name             | size          | description                                                  |
 | --------------------- | ------------- | ------------------------------------------------------------ |
