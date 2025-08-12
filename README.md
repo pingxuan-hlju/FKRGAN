@@ -22,12 +22,13 @@ The FKRGAN code has been implemented and tested in the following development env
 
 - `./data`: Contains the dataset used in our method.
 - `dataloade.py`:Processes miRNA-disease similarity and association data to generate embeddings and adjacency matrices, compiling them into a dataset named `common_set.pkl`. Then, splits the dataset into training, validation, and test sets, and saves them as `train_set.pkl` and `test_set.pkl`, respectively.
-- `parameters.py`:Defines hyperparameters for the GCGA model.
-- `model0527.py`: Defines the GCGA model architecture.
+- `parameters.py`:Defines hyperparameters for the FKRGAN model.
+- `model0527.py`: Defines the FKRGAN model architecture.
 - `feature_Block_train.py`:Optimizes the topological features and biological features (miRNA family characteristics and cluster features) for miRNA and disease nodes, as well as the miRNA family characteristics and miRNA cluster features.
 - `relgan_train.py`:Trains the relation-aware adversarial network to generate enhanced feature representations.
-- `train.py`:Trains the GCGA model.
-- `tools4roc_pr.py`: Evaluates the performance of the GCGA model.
+- `train.py`:Trains the FKRGAN model.
+- `tools4roc_pr.py`: Evaluates the performance of the FKRGAN model.
+- `Supplementary Table ST1.xlsx`: Lists the top 50 candidate miRNAs for each disease.
 
 ### Data
 
